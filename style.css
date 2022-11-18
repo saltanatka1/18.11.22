@@ -1,7 +1,43 @@
-*{
+* {
   box-sizing: border-box;
 }
-h1{
-  color: blue;
-  font-style: italic;
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(226, 148, 225, 0.896);
+}
+header {
+  background-color: rgba(121, 50, 75, 0.873);
+  height: 5vh;
+  margin: 0;
+}
+header h1 {
+  color: white;
+  text-align: center;
+}
+.container main {
+  width: 40%;
+  background-color: darksalmon;
+  color: white;
+}
+.container aside {
+  width: 20%;
+
+}
+.container nav {
+  width: 15%;
+
+}
+.container nav ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style-type: none;
+}
+footer .div2 {
+  background-color: rgba(121, 50, 75, 0.873);
 }
